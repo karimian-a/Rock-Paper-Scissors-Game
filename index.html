@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Rock, Paper, Scissors Game</title>
+  </head>
+  <body>
+    <div class="mr-box">
+      <h2 class="title">Rock-Paper-Scissors</h2>
+
+      <div class="competition-box">
+        <div>
+          <span class="state user"></span>
+          <span class="who">You</span>
+        </div>
+        <span class="vs">VS.</span>
+        <div>
+          <span class="state computer"></span>
+          <span class="who">Computer</span>
+        </div>
+      </div>
+      <div class="btns">
+        <button class="modes" data-icon="✊">✊</button>
+        <button class="modes" data-icon="✋">✋</button>
+        <button class="modes" data-icon="✌️">✌️</button>
+      </div>
+      <p class="hidden-message message message-equal">message</p>
+      <p class="score">Your Score: <span class="my-score">0</span></p>
+      <p class="score">Computer Score: <span class="computer-score">0</span></p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

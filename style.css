@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(120deg, #0a7075, #032f30);
+  font-family: sans-serif;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.mr-box {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 30px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.competition-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.competition-box > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.who {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+.state {
+  width: 100px;
+  height: 100px;
+  font-size: 5rem;
+}
+
+.vs {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 10px;
+}
+
+.btns {
+  display: flex;
+  gap: 20px;
+  margin: 30px 0;
+  padding: 10px;
+  background-color: rgba(3, 47, 48, 0.15);
+  border-radius: 15px;
+  box-shadow: 5px 8px 10px rgba(3, 47, 48, 0.4);
+}
+
+.message {
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: default;
+}
+
+.hidden-message {
+  opacity: 0;
+}
+
+.message-won {
+  color: #0a0;
+}
+
+.message-lost {
+  color: #f24;
+}
+
+.message-equal {
+  color: #0af;
+}
+
+.score {
+  font-size: 1.3rem;
+  margin-top: 15px;
+}
+
+.my-score {
+  color: #0af;
+  font-size: 1.6rem;
+}
+
+.computer-score {
+  color: #f24;
+  font-size: 1.6rem;
+}
