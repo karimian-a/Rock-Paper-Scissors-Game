@@ -21,6 +21,7 @@ button {
   border: none;
   font-size: 3rem;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* ----------<< Main box styles >>---------- */
@@ -103,17 +104,23 @@ button {
 }
 
 .message-equal {
-  color: #0af;
+  color: #08f;
 }
 
 /* ----------<< Box styles Hand gestures >>---------- */
 .score {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin-top: 15px;
+  color: #333;
+}
+
+.score-num{
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
 .my-score {
-  color: #0af;
+  color: #06f;
   font-size: 1.6rem;
 }
 
