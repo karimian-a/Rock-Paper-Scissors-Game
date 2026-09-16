@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
     <title>Rock, Paper, Scissors Game</title>
+    <!-- ----------<< Connecting CSS to the project >>---------- -->
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!-- ----------<< Main box >>---------- -->
     <div class="mr-box">
       <h2 class="title">Rock-Paper-Scissors</h2>
 
+      <!-- ----------<< Player Selection Display Box >>---------- -->
       <div class="competition-box">
         <div>
           <span class="state user"></span>
@@ -21,15 +24,21 @@
           <span class="who">Computer</span>
         </div>
       </div>
+
+      <!-- ----------<< Hand Gestures Box >>---------- -->
       <div class="btns">
         <button class="modes" data-icon="✊">✊</button>
         <button class="modes" data-icon="✋">✋</button>
         <button class="modes" data-icon="✌️">✌️</button>
       </div>
+      
+      <!-- ----------<< Win/Loss and Score Status Display Box >>---------- -->
       <p class="hidden-message message message-equal">message</p>
       <p class="score">Your Score: <span class="my-score">0</span></p>
       <p class="score">Computer Score: <span class="computer-score">0</span></p>
     </div>
+
+    <!-- ----------<< Connecting JavaScript to the project >>---------- -->
     <script src="./script.js"></script>
   </body>
 </html>
